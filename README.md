@@ -1,4 +1,9 @@
-# Acciojob Assignment Solution Template Repo
+# Bootstrap Forms
 
-# Instructions  
-
+Creating HTML forms can be very tedious work(especially the CSS part). But Bootstrap got our back. With bootstrap inbuilt support for the input form. Building a form is very easy. 
+<i>Details</i>
+<li>Create a from using Bootstrap.</li><li>Fields Required</li>
+<br>
+<table class='table table-striped ' style="background:white"><thead><tr><th>field</th><th>id</th><th>description</th></tr></thead><tbody><tr><td>username</td><td>username-input</td><td>This field should have a <a href='https://getbootstrap.com/docs/5.0/forms/floating-labels/' >floating label</a>.</td></tr><tr><td>email</td><td>email-handler-input, server-input</td><td>first field for email handler name and other for the server name with a @ between them.</td></tr><tr><td>image</td><td>image-input</td><td>the student should be able to upload jpeg/png images. Its should be rendered along with a label having text <Upload your Image>.</td></tr><tr><td>college name</td><td>college-input</td><td>Should use datalist to render a list of known colleges(NIT,BITS,IIT,IIIT,other). This input should be linked to the datalist. The data list should have id <collge-options>. Along with the label with text <Select your college name.></td></tr><tr><td>conditions</td><td>conditions-input</td><td>Use a <a href='https://getbootstrap.com/docs/5.0/forms/checks-radios/#switches'>switch</a> to render a check box asking whether user accepts all terms and conditions. Label should be rendered with text <Accept all terms and conditions>.</td></tr><tr><td>submit</td><td>submit-button</td><td>Should be disabled until the form is completely filled..</td></tr><tr><td>progress bar</td><td>progress-bar-new</td><td>Initially <a href='https://getbootstrap.com/docs/5.0/components/progress/'>progress bar</a> should be empty(width:0%) later its length should increase as the form is filled. And should be 100% when complete form is filled. </td></tr></tbody></table>
+ 
+ <I>Acceptance Criteria</i><li> Should use what is recommend by bootstrap </li><li>Should use input-group class wherever required.</li><li>Label should have for attribute defined</li>
