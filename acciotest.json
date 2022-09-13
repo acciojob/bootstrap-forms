@@ -1,4 +1,4 @@
 {
-    "testRepo": "bootstrap-forms",
+    "testRepo": "bootstrap-forms-solution",
     "pathToFile": "cypress/integration/tests/test.spec.js"
 }
